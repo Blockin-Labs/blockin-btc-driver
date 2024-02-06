@@ -1,0 +1,24 @@
+{
+  "name": "blockin-btc-driver",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/BtcDriver.js",
+  "scripts": {
+    "prepack": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && tsc --build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bip322-js": "^1.1.0",
+    "bitbadgesjs-proto": "^0.1.83",
+    "bitbadgesjs-utils": "^1.1.166",
+    "blockin": "^1.2.100",
+    "buffer": "^6.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.3"
+  }
+}
